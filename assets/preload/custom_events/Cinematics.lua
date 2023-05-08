@@ -14,14 +14,14 @@ function onCreate()
 	makeLuaSprite('UpperBar', 'empty', 0, -120)
 	makeGraphic('UpperBar', 1280, 120, '000000')
 	setObjectCamera('UpperBar', 'hud')
-	addLuaSprite('UpperBar', false)
+	addLuaSprite('UpperBar', true)
 
 
 	--THE BOTTOM BAR
 	makeLuaSprite('LowerBar', 'empty', 0, 720)
 	makeGraphic('LowerBar', 1280, 120, '000000')
 	setObjectCamera('LowerBar', 'hud')
-	addLuaSprite('LowerBar', false)
+	addLuaSprite('LowerBar', true)
 
 end
 
